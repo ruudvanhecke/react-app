@@ -7,6 +7,7 @@ import {Persons} from "./components/Persons";
 import {Cities} from "./components/City";
 import {EventDemo} from "./components/EventDemo";
 import {StateDemo} from "./components/StateDemo";
+import {PersonBrowser} from "./components/PersonBrowser";
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
             <Cities cities={citiesFromPersons} title="Steden"/>
             <EventDemo title="events"/>
             <StateDemo />
+            <PersonBrowser title="Person Browser" persons={PERSON_DATA}/>
         </>
 
 

@@ -2,7 +2,7 @@ import {Section} from "./Section";
 import {Card} from "./Card";
 
 
-function Person(props) {
+export function Person(props) {
     const {person} = props;
     return <Card title={person.name}>
         <div>{person.age}</div>

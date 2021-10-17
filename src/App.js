@@ -1,3 +1,5 @@
+import 'normalize.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import {CITIES, NUMBER_DATA, PERSON_DATA} from "./data/data";
 import {Numbers} from "./components/Numbers";
@@ -8,6 +10,7 @@ import {Cities} from "./components/City";
 import {EventDemo} from "./components/EventDemo";
 import {StateDemo} from "./components/StateDemo";
 import {PersonBrowser} from "./components/PersonBrowser";
+import "./services/firestore";
 
 
 function App() {
@@ -25,6 +28,9 @@ function App() {
         c.aantal = teller;
 
     })
+
+
+
 
     return (
         <>
